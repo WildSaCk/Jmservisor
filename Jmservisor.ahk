@@ -81,4 +81,8 @@ if(A_Args[1]="vmware_client"){
     BlockInput,off
     return
 }
+if(A_Args[1]="custom"){
+  Run, %2%
+  return
+}
 return
